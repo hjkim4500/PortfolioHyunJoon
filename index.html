@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>MyPortFolio</title>
+        <link rel="stylesheet" href="/reset.css" />
+        <link rel="stylesheet" href="/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <input
+            type="text"
+            id="textInput"
+            placeholder="Type something.."
+            value="WELCOME MY PORTFOLIO"
+        />
+
+        <canvas id="canvas1"></canvas>
+
+        <div class="main-content-1">
+            <div class="sticky">
+                <div class="sticky-background">What's About Me?</div>
+                <div class="card-frame">
+                    <div class="card">
+                        <div class="front">
+                            <canvas class="CanvasCard" id="jsCanvas1"></canvas>
+                            <div>SKILL</div>
+                        </div>
+                        <div class="back">
+                            <canvas
+                                class="Backcanvas"
+                                id="Backcanvas1"
+                            ></canvas>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="front">
+                            <canvas class="CanvasCard" id="jsCanvas2"></canvas>
+                        </div>
+                        <div class="back">
+                            <canvas
+                                class="Backcanvas"
+                                id="Backcanvas2"
+                            ></canvas>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="front">
+                            <canvas class="CanvasCard" id="jsCanvas3"></canvas>
+                        </div>
+                        <div class="back">
+                            <canvas
+                                class="Backcanvas"
+                                id="Backcanvas3"
+                            ></canvas>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="front">
+                            <canvas class="CanvasCard" id="jsCanvas4"></canvas>
+                        </div>
+                        <div class="back">
+                            <canvas
+                                class="Backcanvas"
+                                id="Backcanvas4"
+                            ></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="/TexParticle.js"></script>
+        <script src="/CardFlip.js"></script>
+        <script src="/ScrachCard.js"></script>
+        <script src="BackParticle.js"></script>
+    </body>
+</html>
